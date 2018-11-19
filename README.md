@@ -1,10 +1,30 @@
 # 대학교 학사일정 챗봇  
 
-![image](https://user-images.githubusercontent.com/38031783/48692865-e92ac800-ec1a-11e8-8cfa-097c058a780b.png)
+개인 공부용으로 제작한 대학교 학사일정 검색 챗봇입니다.  
+Dialogflow와 Flask로 구현했으며 서버는 heroku를 이용했습니다.  
+무료 서버를 이용하고 있기 때문에 조금 느릴 수 있습니다.
+현재 날짜 검색과 일정 검색 기능 두 가지가 있습니다.
 
-Dialogflow와 Flask로 제작한 대학교 학사일정 크롤링 챗봇입니다.  
-서버는 heroku를 이용했습니다. 
+## 시작하기
+![image](https://user-images.githubusercontent.com/38031783/48694087-baaeec00-ec1e-11e8-89fb-b217b98938b6.png)
+**대화하기** 버튼을 누르거나 입력하면 대화가 시작됩니다.  
+먼저 검색을 원하는 학사일정을 버튼을 통해 선택합니다.
+
+## 날짜 검색 기능
+![image](https://user-images.githubusercontent.com/38031783/48693760-d9f94980-ec1d-11e8-9048-6895338a81bf.png)
+날짜를 입력하면 해당 날짜에 있는 학사일정을 알려줍니다.
+
+## 일정 검색 기능
+![image](https://user-images.githubusercontent.com/38031783/48693862-12992300-ec1e-11e8-9bd4-58320933a8ae.png)
+일정 이름을 입력하면 해당 일정의 날짜를 알려줍니다.  
+
+## 주의사항
+일정과 날짜는 여러 번 연속으로 검색할 수 있습니다.  
+하지만 다른 검색을 이용할 시 (예: 일정 -> 날짜) **대화하기**를 입력하여 처음으로 돌아가야 합니다.  
+추후 자연스럽게 검색 간 이동을 구현할 예정입니다.  
+
 아직 기본기능만 있어 미흡한 상태입니다. 차차 업데이트될 예정입니다.   
-카카오톡 플러스친구 'KU학사일정'을 통해 이용해보실 수 있습니다.  
+카카오톡 플러스친구 **KU학사일정**을 통해 이용해보실 수 있습니다.  
 
+## 참고 자료
 참고자료: https://github.com/deepseasw/dialogflow_heroku_kakaotalk_chatbot
