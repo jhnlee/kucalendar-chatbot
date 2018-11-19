@@ -1,0 +1,5 @@
+﻿Flask
+requests
+pillow
+bs4
+gunicorn
