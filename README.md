@@ -6,16 +6,22 @@ Dialogflow와 Flask로 구현했으며 서버는 heroku를 이용했습니다.
 현재 날짜 검색과 일정 검색 기능 두 가지가 있습니다.  
 
 ## 시작하기  
+  
 ![image](https://user-images.githubusercontent.com/38031783/48694087-baaeec00-ec1e-11e8-89fb-b217b98938b6.png)  
+  
 **대화하기** 버튼을 누르거나 입력하면 대화가 시작됩니다.  
 먼저 검색을 원하는 학사일정을 버튼을 통해 선택합니다.
 
 ## 날짜 검색 기능  
+  
 ![image](https://user-images.githubusercontent.com/38031783/48693760-d9f94980-ec1d-11e8-9048-6895338a81bf.png)  
+  
 날짜를 입력하면 해당 날짜에 있는 학사일정을 알려줍니다.
 
 ## 일정 검색 기능  
-![image](https://user-images.githubusercontent.com/38031783/48693862-12992300-ec1e-11e8-9bd4-58320933a8ae.png)  
+  
+![image](https://user-images.githubusercontent.com/38031783/48694539-f0080980-ec1f-11e8-9e73-81e4aa1604c3.png)
+  
 일정 이름을 입력하면 해당 일정의 날짜를 알려줍니다.  
 
 ## 주의사항  
