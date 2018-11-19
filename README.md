@@ -16,13 +16,15 @@ Dialogflow와 Flask로 구현했으며 서버는 heroku를 이용했습니다.
   
 ![image](https://user-images.githubusercontent.com/38031783/48693760-d9f94980-ec1d-11e8-9048-6895338a81bf.png)  
   
-날짜를 입력하면 해당 날짜에 있는 학사일정을 알려줍니다.
+날짜를 입력하면 해당 날짜에 있는 학사일정을 알려줍니다.  
+dialogflow의 intent를 통해 여러 패턴의 질문에 대응할 수 있도록 학습시켰습니다.
 
 ## 일정 검색 기능  
   
 ![image](https://user-images.githubusercontent.com/38031783/48694539-f0080980-ec1f-11e8-9e73-81e4aa1604c3.png)
   
 일정 이름을 입력하면 해당 일정의 날짜를 알려줍니다.  
+마찬가지로 dialogflow를 통해 여러 패턴의 질문에 대응할 수 있도록 학습되었습니다.  
 
 ## 주의사항  
 일정과 날짜는 여러 번 연속으로 검색할 수 있습니다.  
